@@ -1,0 +1,104 @@
+/* General Resets and Fonts */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: blueviolet;
+    padding: 20px 0;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+header h1 a:hover {
+    color: #d1d1ff;
+}
+
+
+/* Cabinet Grid */
+.cabinet {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+/* Individual Cards */
+.card {
+    width: 220px;
+    height: 260px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.cb-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: blueviolet;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cb-title a {
+    font-size: 22px;
+    font-weight: 600;
+    color: blueviolet;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Images */
+.cb-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid blueviolet;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Link Styling */
+.got {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
